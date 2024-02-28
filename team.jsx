@@ -5,7 +5,7 @@ import CardComponent from '../components/teamCard';
 const TeamSection = () => {
   const teamData = [
     {
-      name: 'John Green',
+      name: 'John Paul',
       role: 'Team Leader',
       experience: '10 years drone hobbyist with great leadership skills.',
       bio: 'A dynamic leader and accomplished drone pilot who brings precision to the forefront of aerial operations. John combines his passion for flying with his exceptional organizational skills.',
@@ -28,7 +28,7 @@ const TeamSection = () => {
   ];
 
   return (
-    <section className=" py-12 min-h-screen flex font-raleway ">
+    <section className=" py-10 min-h-screen flex font-raleway ">
       <div className="container mx-auto md:px-4 px-16 lg:px-0">
         <div>
           <h1 className='text-center text-1xl tracking-widest capitalize mt-20 px-5 '>OUR TEAM</h1>
